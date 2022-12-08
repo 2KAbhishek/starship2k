@@ -1,12 +1,10 @@
 format = """
-[](#9A348E)\
-$username\
-[](bg:#DA627D fg:#9A348E)\
+[](fg:#1688f0)\
 $directory\
-[](fg:#DA627D bg:#FCA17D)\
+[]( bg:#3ED50A)\
 $git_branch\
 $git_status\
-[](fg:#FCA17D)\
+[](fg:#3ED50A)\
 $fill\
 $c\
 $elixir\
@@ -15,13 +13,13 @@ $golang\
 $haskell\
 $java\
 $julia\
+[](fg:#6BA15C)\
 $nodejs\
 $nim\
 $rust\
 $scala\
-[](fg:#86BBD8)\
 $docker_context\
-[](fg:#06969A bg:#33658A)\
+[](fg:#33658a bg:#6BA15C)\
 $time\
 [](fg:#33658A)\
 $line_break $character
@@ -31,12 +29,6 @@ $line_break $character
 # add_newline = false
 
 # You can also replace your username with a neat symbol like  to save some space
-[username]
-show_always = false
-style_user = "bg:#9A348E"
-style_root = "bg:#9A348E"
-format = '[$user]($style)'
-
 [directory]
 style = "bg:#1688f0"
 format = "[ $path ]($style)"
@@ -50,6 +42,7 @@ truncation_symbol = "…/"
 "Downloads" = "  Downloads"
 "Music" = "  Music"
 "Pictures" = "  Pictures"
+"Projects" = "  Projects"
 # Keep in mind that the order matters. For example:
 # "Important Documents" = "  "
 # will not be replaced, because "Documents" was already substituted before.
@@ -78,11 +71,11 @@ format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
+style = "bg:#3ED50A"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#FCA17D"
+style = "bg:#3ED50A"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
@@ -129,4 +122,4 @@ format = '[ $symbol ($version) ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#33658A"
-format = '[ ♥ $time ]($style)'
+format = '[ $time ]($style)'
