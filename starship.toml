@@ -17,23 +17,19 @@ $golang\
 $haskell\
 $java\
 $julia\
-[](fg:#6BA15C)\
 $nodejs\
 $nim\
 $ruby\
 $rust\
 $scala\
 $docker_context\
-[](fg:cyan bg:#6BA15C)\
-$time\
-[](fg:cyan)\
+
 $line_break\
 $character
 """
 
 continuation_prompt = "[  ](blue)"
-# Disable the blank line at the start of the prompt
-# add_newline = false
+
 [character]
 success_symbol = "[  ](bold green)" # normal prompt
 error_symbol = "[ ✘ ](italic red)" # used if previous command failed
