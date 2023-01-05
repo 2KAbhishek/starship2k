@@ -21,6 +21,7 @@ $golang\
 $haskell\
 $java\
 $julia\
+$kotlin\
 $lua\
 $nodejs\
 $nim\
@@ -132,6 +133,11 @@ format = '[ $symbol ($version) ]($style)'
 [julia]
 symbol = " "
 style = "fg:#CA3C32 bold"
+format = '[ $symbol ($version) ]($style)'
+
+[kotlin]
+symbol = "🅺 "
+style = "fg:#746DDA bold"
 format = '[ $symbol ($version) ]($style)'
 
 [lua]
