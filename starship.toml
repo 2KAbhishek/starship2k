@@ -85,7 +85,7 @@ format = '[  $duration]($style)'
 
 [memory_usage]
 disabled = false
-threshold = -1
+threshold = 75
 symbol = ' '
 style = 'yellow bold'
 format = '[ $symbol $ram]($style)'
