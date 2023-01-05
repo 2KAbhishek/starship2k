@@ -48,78 +48,77 @@ truncation_symbol = "…/"
 # will not be replaced, because "Documents" was already substituted before.
 # So either put "Important Documents" before "Documents" or use the substituted version:
 # "Important  " = "  "
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "fg:black bg:cyan"
+format = '[ $time ]($style)'
 
 [c]
 symbol = " "
-style = "bg:#3F4347"
+style = "fg:black bg:#3F4347"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:#06969A"
+style = "fg:black bg:#06969A"
 format = '[ $symbol $context ]($style) $path'
 
 [elixir]
 symbol = " "
-style = "bg:#422758"
+style = "fg:black bg:#422758"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "bg:#F0AD00"
+style = "fg:black bg:#F0AD00"
 format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
-symbol = ""
-style = "bg:#3ED50A"
+symbol = "  "
+style = "fg:black bg:green"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#3ED50A"
+style = "fg:black bg:green"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:#00ACD7"
+style = "fg:black bg:#00ACD7"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:#9C4B89"
+style = "fg:black bg:#9C4B89"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:#F0931C"
+style = "fg:black bg:#F0931C"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:#CA3C32"
+style = "fg:black bg:#CA3C32"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#6BA15C"
+style = "fg:black bg:#6BA15C"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "bg:#F7E852"
+style = "fg:black bg:#F7E852"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#C26F2E"
+style = "fg:black bg:#C26F2E"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "bg:#D73222"
+style = "fg:black bg:#D73222"
 format = '[ $symbol ($version) ]($style)'
-
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
-style = "bg:#33658A"
-format = '[ $time ]($style)'
