@@ -79,63 +79,65 @@ format = '[  $duration]($style)'
 
 [c]
 symbol = " "
-style = "fg:black bg:#3F4347"
+style = "fg:#3F4347 bold"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "fg:black bg:#06969A"
+style = "fg:#06969A bold"
 format = '[ $symbol $context ]($style) $path'
 
 [elixir]
 symbol = " "
-style = "fg:black bg:#422758"
+style = "fg:#422758 bold"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "fg:black bg:#F0AD00"
+style = "fg:#F0AD00 bold"
 format = '[ $symbol ($version) ]($style)'
 
 [golang]
 symbol = " "
-style = "fg:black bg:#00ACD7"
+style = "fg:#00ACD7 bold"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "fg:black bg:#9C4B89"
+style = "fg:#9C4B89 bold"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "fg:black bg:#F0931C"
+style = "fg:#F0931C bold"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "fg:black bg:#CA3C32"
+style = "fg:#CA3C32 bold"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:black bg:#6BA15C"
+style = "fg:#6BA15C bold"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "fg:black bg:#F7E852"
+style = "fg:#F7E852 bold"
+format = '[ $symbol ($version) ]($style)'
+
 [ruby]
 symbol = " "
 style = "fg:#B91B0B bold"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
-symbol = ""
-style = "fg:black bg:#C26F2E"
+symbol = " "
+style = "fg:#C26F2E bold"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "fg:black bg:#D73222"
+style = "fg:#D73222 bold"
 format = '[ $symbol ($version) ]($style)'
