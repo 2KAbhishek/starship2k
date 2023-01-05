@@ -73,6 +73,10 @@ time_format = "%a, %I:%M %p" # Hour:Minute Format
 style = "fg:black bg:cyan"
 format = '[  $time ]($style)'
 
+[cmd_duration]
+style = "yellow bold"
+format = '[  $duration]($style)'
+
 [c]
 symbol = " "
 style = "fg:black bg:#3F4347"
