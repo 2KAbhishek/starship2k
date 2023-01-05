@@ -4,8 +4,12 @@ $directory\
 [](fg:blue bg:green)\
 $git_branch\
 $git_status\
-[](fg:green)\
+[](fg:green bg:cyan)\
+$time\
+[](fg:cyan)\
 $fill\
+
+$cmd_duration\
 $c\
 $elixir\
 $elm\
