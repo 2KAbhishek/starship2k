@@ -77,15 +77,20 @@ format = '[  $time ]($style)'
 style = "yellow bold"
 format = '[  $duration]($style)'
 
+[docker_context]
+symbol = " "
+style = "fg:#06969A bold"
+format = '[ $symbol $context ]($style) $path'
+
 [c]
 symbol = " "
 style = "fg:#3F4347 bold"
 format = '[ $symbol ($version) ]($style)'
 
-[docker_context]
-symbol = " "
-style = "fg:#06969A bold"
-format = '[ $symbol $context ]($style) $path'
+[dart]
+symbol = " "
+style = "fg:#3FBEF7 bold"
+format = '[ $symbol ($version) ]($style)'
 
 [elixir]
 symbol = " "
@@ -117,6 +122,11 @@ symbol = " "
 style = "fg:#CA3C32 bold"
 format = '[ $symbol ($version) ]($style)'
 
+[lua]
+symbol = " "
+style = "fg:#0402A9 bold"
+format = '[ $symbol ($version) ]($style)'
+
 [nodejs]
 symbol = ""
 style = "fg:#6BA15C bold"
@@ -127,8 +137,18 @@ symbol = " "
 style = "fg:#F7E852 bold"
 format = '[ $symbol ($version) ]($style)'
 
+[python]
+symbol = " "
+style = "fg:#316A9A bold"
+format = '[ $symbol ($version) ]($style)'
+
+[rlang]
+symbol = "ﳒ "
+style = "fg:#2266B8 bold"
+format = '[ $symbol ($version) ]($style)'
+
 [ruby]
-symbol = " "
+symbol = " "
 style = "fg:#B91B0B bold"
 format = '[ $symbol ($version) ]($style)'
 
