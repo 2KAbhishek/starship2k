@@ -10,19 +10,25 @@ $time\
 $fill\
 
 $cmd_duration\
+$memory_usage\
+$docker_context\
+
 $c\
+$dart\
 $elixir\
 $elm\
 $golang\
 $haskell\
 $java\
 $julia\
+$lua\
 $nodejs\
 $nim\
+$python\
+$rlang\
 $ruby\
 $rust\
 $scala\
-$docker_context\
 
 $line_break\
 $character
@@ -31,15 +37,14 @@ $character
 continuation_prompt = "[  ](blue)"
 
 [character]
-success_symbol = "[  ](bold green)" # normal prompt
-error_symbol = "[ ✘ ](italic red)" # used if previous command failed
+success_symbol = "[  ](bold green)"
+error_symbol = "[ ✘ ](italic red)"
 
-# You can also replace your username with a neat symbol like  to save some space
 [directory]
 style = "fg:black bg:blue"
 format = "[ $path ]($style)"
 truncation_length = 3
-truncation_symbol = "…/"
+truncation_symbol = " …/"
 
 [directory.substitutions]
 "~" = " ~"
@@ -76,6 +81,13 @@ format = '[  $time ]($style)'
 [cmd_duration]
 style = "yellow bold"
 format = '[  $duration]($style)'
+
+[memory_usage]
+disabled = false
+threshold = -1
+symbol = ' '
+style = 'yellow bold'
+format = '[ $symbol $ram]($style)'
 
 [docker_context]
 symbol = " "
