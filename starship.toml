@@ -20,6 +20,7 @@ $julia\
 [](fg:#6BA15C)\
 $nodejs\
 $nim\
+$ruby\
 $rust\
 $scala\
 $docker_context\
@@ -115,6 +116,9 @@ format = '[ $symbol ($version) ]($style)'
 [nim]
 symbol = " "
 style = "fg:black bg:#F7E852"
+[ruby]
+symbol = " "
+style = "fg:#B91B0B bold"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
