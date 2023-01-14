@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/starship2k">starship2k</a></h1>
+<h1><a href="https://github.com/2kabhishek/starship2k">starship2k</a></h1>
 
 <a href="https://github.com/2KAbhishek/starship2k/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/starship2k?style=flat&color=eee&label="> </a>
@@ -20,89 +20,85 @@
 <a href="https://github.com/2KAbhishek/starship2k/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/starship2k?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Make Your Shell Shine 🌟🐚</h3>
 
 <figure>
-  <img src= "images/screenshot.png" alt="starship2k Demo">
+  <img src= "images/screenshot.jpg" alt="starship2k Demo">
   <br/>
   <figcaption>starship2k screenshot</figcaption>
 </figure>
 
 </div>
 
-## What is this
+starship2k is a shell prompt based on starship prompt.
 
-starship2k is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+## ✨ Features
 
-## Inspiration
+- Powerline support
+- Exhaustive git prompt
+- Support for multiple languages
+- Multiline prompt
 
-starship2k was inspired by `<reason/idea>`.
+## Setup
 
-## Prerequisites
+### ⚡ Requirements
 
-Before you begin, ensure you have met the following requirements:
+- [starship](https://github.com/starship/starship)
+- a shell of your choice
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
-
-## Getting starship2k
-
-To get starship2k, follow these steps:
+### 🚀 Installation
 
 ```bash
 git clone https://github.com/2kabhishek/starship2k
 cd starship2k
-<install_command>
+ln -sfnv $PWD/starship.toml ~/.config/
 ```
 
-## Using starship2k
+### 💻 Usage
 
 ```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
+# bash, append to ~/.bashrc
+eval "$(starship init bash)"
 
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+# zsh, append to ~/.zshrc
+eval "$(starship init zsh)"
 ```
+For more details check the [setup section on starship](https://github.com/starship/starship#step-2-setup-your-shell-to-use-starship)
 
-## How it was built
+##  Behind The Code
 
-starship2k was built using `<tech/library>`
+### 🌈 Inspiration
 
-## Challenges faced
+Wanted to do a comparison between [oh-my-posh](https://github.com/jandedobbeleer/oh-my-posh) and [starship](https://github.com/starship/starship) for a better cross platform option.
+Both have their pros and cons.
 
-While building starship2k the main challenges were `<issue/difficulty>`
+For my oh-my-posh config, check out [Posh2K](https://github.com/2kabhishek/Posh2K)
 
-## What I learned
+### 💡 Challenges/Learnings
 
-While building starship2k I `<learned/accomplished>` about `<learning/accomplishment>`
+- Learned about starship configuration format, found oh-my-posh to be more intuitive.
 
-## What's next
+### 🧰 Tooling
 
-Planning to add `<feature/module>`.
+- [Dotfiles](https://github.com/2kabhishek/Dotfiles) — Dev Environment
+- [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
 
-### To-Do
+### 🔍 More Info
 
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- [Posh2K](https://github.com/2kabhishek/Posh2K) My oh-my-posh configs
 
-Hit the ⭐ button if you found this useful.
-
-## More Info
+<hr>
 
 <div align="center">
 
-<a href="https://github.com/2KAbhishek/starship2k">Source</a> | <a href="https://2kabhishek.github.io/starship2k">Website</a>
+<strong>⭐ hit the star button if you found this useful ⭐</strong><br>
+
+<a href="https://github.com/2KAbhishek/starship2k">Source</a>
+| <a href="https://2kabhishek.github.io/blog" target="_blank">Blog </a>
+| <a href="https://twitter.com/2kabhishek" target="_blank">Twitter </a>
+| <a href="https://linkedin.com/in/2kabhishek" target="_blank">LinkedIn </a>
+| <a href="https://2kabhishek.github.io/links" target="_blank">More Links </a>
+| <a href="https://2kabhishek.github.io/projects" target="_blank">Other Projects </a>
 
 </div>
+
